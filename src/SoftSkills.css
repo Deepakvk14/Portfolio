@@ -1,0 +1,37 @@
+.softSkills {
+    color: white;
+    width: 80%;
+    height: 40px;
+    background-color: gray;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+ 
+    margin-top: 10px;
+    display: flex;
+    box-shadow: 0px 0px 2px black;
+    
+    
+}
+.Softtt {
+    display: flex;
+    justify-content: center;
+   
+    margin-bottom: 10px;
+}
+.inner_div {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 40px;
+    background-color: rgb(226, 55, 55);
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px black;
+   
+    
+}
+.inner_div p {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+}

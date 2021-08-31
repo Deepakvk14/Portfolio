@@ -1,0 +1,28 @@
+.techSkills {
+    color: white;
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: rgb(128, 128, 128);
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    box-shadow: 0px 0px 2px black;
+    height: 40px;
+    
+    
+}
+.inner_div {
+    color: white;
+    height: 50px;
+    background-color: rgb(104, 224, 245);
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px black;
+   
+    
+}
+.inner_div p {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: .8rem;
+}

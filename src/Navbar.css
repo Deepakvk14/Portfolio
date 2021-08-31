@@ -1,0 +1,32 @@
+.navbar {
+    width: 60vw;
+    height: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px white;
+    background-color:rgb(156, 45, 45);
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 800;
+    
+    
+}
+.navbar a:hover {
+    color: rgb(240, 18, 18);
+}
+.navbar a:active {
+    color: black;
+}
+@media only screen and (max-width:850px){
+    .navbar {
+        margin-top: 5px;
+        width: 100%;
+        padding: 10px;
+
+    }
+}  

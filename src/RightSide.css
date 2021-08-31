@@ -1,0 +1,22 @@
+.right_side {
+    width: 100%;
+   background-color: black;
+    /* background-image: linear-gradient(black,darkblue); */
+    height: 90vh;
+    margin-top: 5px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px rgb(250, 248, 248);
+    
+}
+@media only screen and (max-width:850px){
+    .right_side {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+
+
+    }
+}  

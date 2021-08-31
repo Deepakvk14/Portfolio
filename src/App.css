@@ -1,0 +1,11 @@
+*{
+  margin: 0px;
+  scrollbar-width: thin;
+  scrollbar-color: red,green;
+ }
+ .App {
+   width: 100vw;
+   background-color:white;
+   display: flex;
+   justify-content:center ;
+ }

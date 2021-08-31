@@ -1,0 +1,28 @@
+.Project_card1 {
+    height: 90vh;
+   overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+
+}
+/* @media only screen and (max-width:850px){
+    .Project_card1 {
+        width: 100%;
+        display: flex;
+        overflow: scroll;
+        flex-direction: column;
+       
+    }
+} */
+ /* @media only screen and (min-width:850px){ 
+    .Project_card1 {
+        width: 100%;
+        display: flex;
+        overflow: scroll;
+        flex-direction: column;
+       
+    }
+} */

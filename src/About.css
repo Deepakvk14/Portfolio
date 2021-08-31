@@ -1,0 +1,30 @@
+.about {
+ overflow: scroll;
+
+    height: 90vh;
+}
+.about h4{
+    color: lightblue;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-top:10px;
+    font-size: 1.4rem;
+}
+.para {
+    text-indent: 10%;
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.para1{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+span {
+    color: orange;
+}

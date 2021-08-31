@@ -1,0 +1,68 @@
+.skills {
+ 
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.tech_skills {
+    width: 40%;
+    margin-bottom: 10px;
+}
+.tech_skills h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.soft_skills {
+    width: 40%;
+    margin-right: 20px;
+}
+.soft_skills>h2 {
+    text-align: center;
+    margin-top: 20px;
+
+}
+@media screen and (max-width:850px){
+    .skills {
+        display: flex;
+        overflow: scroll;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center ;
+        align-items: center;
+        height: auto;
+       
+    }
+     .tech_skills {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .soft_skills {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    h2 {
+        text-align: center;
+    }
+}
+ /* @media screen and (max-width:850px){
+        .skills {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center ;
+            align-items: center;
+            height: auto;
+           
+        }
+        
+   
+    
+} */
